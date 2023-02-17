@@ -84,14 +84,14 @@ func run(cmd *cobra.Command, argv []string) {
 				}
 			}
 		} else if flags.removeDanglingImagesOnly && image.Dangling {
-			removeImage(image.ID)
+			err := removeImage(image.ID)
 			if err != nil {
 				fmt.Println(err)
 				os.Exit(1)
 			}
 			fmt.Printf("Image: %s removed!\n", image.ID)
 		} else if !flags.removeDanglingImagesOnly {
-			removeImage(image.ID)
+			err := removeImage(image.ID)
 			if err != nil {
 				fmt.Println(err)
 				os.Exit(1)
