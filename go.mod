@@ -3,7 +3,7 @@ module github.com/ryankwilliams/podman-toolbox
 go 1.19
 
 require (
-	github.com/containers/podman/v4 v4.4.1
+	github.com/containers/podman/v4 v4.4.2
 	github.com/spf13/cobra v1.6.1
 )
 
@@ -23,7 +23,7 @@ require (
 	github.com/containerd/stargz-snapshotter/estargz v0.13.0 // indirect
 	github.com/containers/buildah v1.29.0 // indirect
 	github.com/containers/common v0.51.0 // indirect
-	github.com/containers/image/v5 v5.24.0 // indirect
+	github.com/containers/image/v5 v5.24.1 // indirect
 	github.com/containers/libtrust v0.0.0-20230121012942-c1716e8a8d01 // indirect
 	github.com/containers/ocicrypt v1.1.7 // indirect
 	github.com/containers/psgo v1.8.0 // indirect
