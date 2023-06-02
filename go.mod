@@ -3,7 +3,7 @@ module github.com/ryankwilliams/podman-toolbox
 go 1.19
 
 require (
-	github.com/containers/podman/v4 v4.5.0
+	github.com/containers/podman/v4 v4.5.1
 	github.com/spf13/cobra v1.7.0
 )
 
