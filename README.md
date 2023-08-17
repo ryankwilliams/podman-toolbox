@@ -2,7 +2,7 @@
 
 Collection of command line utilities used when working with podman. One
 of the primary reasons behind this project was to learn how to use podman
-directly within go programs using the (podman service bindings package)[podman-golang-bindings].
+directly within go programs using the [podman service bindings package][podman-golang-bindings].
 
 ## Install
 
