@@ -3,7 +3,7 @@ module github.com/ryankwilliams/podman-toolbox
 go 1.19
 
 require (
-	github.com/containers/podman/v4 v4.6.1
+	github.com/containers/podman/v4 v4.6.2
 	github.com/spf13/cobra v1.7.0
 )
 
@@ -28,7 +28,7 @@ require (
 	github.com/containers/libtrust v0.0.0-20230121012942-c1716e8a8d01 // indirect
 	github.com/containers/ocicrypt v1.1.7 // indirect
 	github.com/containers/psgo v1.8.0 // indirect
-	github.com/containers/storage v1.48.0 // indirect
+	github.com/containers/storage v1.48.1 // indirect
 	github.com/coreos/go-systemd/v22 v22.5.0 // indirect
 	github.com/cyberphone/json-canonicalization v0.0.0-20230514072755-504adb8a8af1 // indirect
 	github.com/cyphar/filepath-securejoin v0.2.3 // indirect
